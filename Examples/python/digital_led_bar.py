@@ -8,7 +8,7 @@ rp_s = scpi.scpi(sys.argv[1])
 if (len(sys.argv) > 2):
   percent = int(sys.argv[2])
 else:
-  percent = 75
+  percent = 0
 
 print ("Bar showing "+str(percent)+"%")
 
